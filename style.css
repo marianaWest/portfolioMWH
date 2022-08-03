@@ -1,0 +1,145 @@
+html {
+    font-size: 62.5;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.landing-page {
+    width: 100vw;
+    height: 100vh;
+    border: 1px red solid;
+}
+
+.logo-name {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 10rem;
+    display: block;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5rem;
+    display: block;
+    width: 60rem;
+    padding: 0;
+    margin: 0;
+    margin-left: 1rem;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(142, 212, 235);
+}
+
+.fullStack {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    color: black
+}
+
+.stack {
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 8%;
+}
+
+.links {
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid gray;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 3px;
+}
+
+.stackList {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-shadow: 5px 5px yellow;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.aboutSection {
+    width: 98vw;
+    height: 90vh;
+    padding-left: 2vw;
+    border: 1px solid green;
+    margin: 0;
+}
+
+.aboutSectionContent {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+.aboutSection img {
+    display: block;
+    width: 30%;
+}
+
+.aboutSection h2 {
+    text-shadow: 5px 5px yellow;
+}
+
+.aboutSection p {
+    width: 60%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.workSection {
+    width: 98vw;
+    height: 100vh;
+    padding-left: 2vw;
+    border: 1px solid orange;
+}
+
+.workSection h2 {
+    text-shadow: 5px 5px yellow;
+}
+
+.contactSection {
+    width: 98vw;
+    height: 100vh;
+    padding-left: 2vw;
+    border: 1px solid purple;
+}
+
+.contactSection h2 {
+    text-shadow: 5px 5px yellow;
+}
+
+
