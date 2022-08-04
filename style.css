@@ -90,7 +90,7 @@ h2 {
 
 .aboutSection {
     width: 98vw;
-    height: 90vh;
+    height: 80vh;
     padding-left: 2vw;
     border: 1px solid green;
     margin: 0;
@@ -121,6 +121,11 @@ h2 {
     font-size: 2rem;
 }
 
+.portrait {
+    border: 1px solid blue;
+
+}
+
 .workSection {
     width: 98vw;
     height: 100vh;
@@ -130,6 +135,27 @@ h2 {
 
 .workSection h2 {
     text-shadow: 5px 5px yellow;
+}
+
+.workSectionContent {
+    margin: 0 auto;
+    border: 1px red solid;
+    width: 80vw;
+}
+
+.workSectionContent .LeonSays {
+    border: 1px blue solid;
+    width: 30%;
+}
+
+.workSectionContent .LeonSays embed {
+    width: 100%;
+}
+
+.workSectionContent span {
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
 }
 
 .contactSection {
