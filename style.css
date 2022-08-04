@@ -156,6 +156,13 @@ h2 {
     display: block;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    font-size: 1.7rem;
+}
+
+.workSectionContent p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .contactSection {
