@@ -121,6 +121,11 @@ h2 {
     font-size: 2rem;
 }
 
+.aboutSection i {
+    display: inline-block;
+    margin-top: 15px;
+}
+
 .portrait {
     border: 1px solid blue;
 
@@ -141,6 +146,10 @@ h2 {
     margin: 0 auto;
     border: 1px red solid;
     width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .workSectionContent .LeonSays {
@@ -153,10 +162,11 @@ h2 {
 }
 
 .workSectionContent span {
-    display: block;
+    display: inline-block;
     font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
     font-size: 1.7rem;
+    margin: 0 auto;
+    border: 1px solid red;
 }
 
 .workSectionContent p {
