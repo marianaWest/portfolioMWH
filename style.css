@@ -157,7 +157,17 @@ h2 {
     width: 30%;
 }
 
-.workSectionContent .LeonSays embed {
+.workSectionContent .mupalavra {
+    width: 30%;
+    border: 1px solid blue;
+}
+
+.workSectionContent .yesOrNo {
+    width: 30%;
+    border: 1px solid blue;
+}
+
+.workSectionContent img {
     width: 100%;
 }
 
