@@ -199,7 +199,21 @@ h2 {
     border: 1px solid green;
 }
 
+.workSectionContent2Row .fissura {
+    width: 30%;
+    border: 1px solid green;
+}
 
+.arrow {
+    width: 80%;
+    height: 100px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    text-align: right;
+}
+.workSection i {
+    display: inline-block;
+}
 
 .contactSection {
     width: 98vw;
