@@ -9,7 +9,9 @@ body {
 .landing-page {
     width: 100vw;
     height: 100vh;
-    border: 1px red solid;
+    background: rgb(241,241,232);
+    background: linear-gradient(180deg, rgba(241,241,232,0.404096672848827) 0%, rgba(247,239,243,0.44611347957151615) 83%, rgba(255,63,0,0.24163168685442926) 100%);
+    border: 1px solid transparent;
 }
 
 .logo-name {
@@ -86,14 +88,19 @@ a:hover {
 
 h2 {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    width: 82%;
+    margin: 20px auto;
 }
 
 .aboutSection {
     width: 98vw;
     height: 80vh;
     padding-left: 2vw;
-    border: 1px solid green;
     margin: 0;
+    background: rgb(241,241,232);
+    background: linear-gradient(180deg, rgba(241,241,232,0.404096672848827) 0%, rgba(247,239,243,0.44611347957151615) 83%, rgba(255,63,0,0.24163168685442926) 100%);
+  
 }
 
 .aboutSectionContent {
@@ -109,6 +116,9 @@ h2 {
 .aboutSection img {
     display: block;
     width: 30%;
+    border: 1px transparent solid; 
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgb(142, 212, 235);
 }
 
 .aboutSection h2 {
@@ -134,10 +144,15 @@ h2 {
 .workSection {
     width: 98vw;
     padding-left: 2vw;
-    border: 1px solid orange;
+    border: 1px solid transparent;
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.workSection h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
 .workSection h2 {
     text-shadow: 5px 5px yellow;
 }
@@ -150,7 +165,6 @@ h2 {
 
 .workSectionContent {
     margin: 0 auto;
-    border: 1px red solid;
     width: 80vw;
     display: flex;
     flex-direction: row;
@@ -159,26 +173,23 @@ h2 {
 
 .workSectionContent img {
     width: 100%;
+    box-shadow: 8px 8px 8px rgb(142, 212, 235);
 }
 
 .workSectionContent .LeonSays {
-    border: 1px blue solid;
     width: 30%;
 }
 
 .workSectionContent .mupalavra {
     width: 30%;
-    border: 1px solid blue;
 }
 
 .workSectionContent .yesOrNo {
     width: 30%;
-    border: 1px solid blue;
 }
 
 .workSectionContent2Row {
     margin: 0 auto;
-    border: 1px red solid;
     width: 80vw;
     display: flex;
     flex-direction: row;
@@ -187,27 +198,24 @@ h2 {
 
 .workSectionContent2Row img {
     width: 100%;
+    box-shadow: 8px 8px 8px rgb(142, 212, 235);
 }
 
 .workSectionContent2Row .NASA {
     width: 30%;
-    border: 1px solid green;
 }
 
 .workSectionContent2Row .tiaBiscoiteira {
     width: 30%;
-    border: 1px solid green;
 }
 
 .workSectionContent2Row .fissura {
     width: 30%;
-    border: 1px solid green;
 }
 
 .arrow {
-    width: 80%;
+    width: 80vw;
     height: 100px;
-    border: 1px solid blue;
     margin: 0 auto;
     text-align: right;
 }
