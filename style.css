@@ -224,13 +224,29 @@ h2 {
 }
 
 .contactSection {
-    width: 98vw;
-    padding-left: 2vw;
-    border: 1px solid purple;
+    width: 80vw;
+    padding-left: 0;
+    padding-top: 3px;
+    border-top: 2px solid gray;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contactSection h2 {
     text-shadow: 5px 5px yellow;
+    width: 30vw;
+    margin: 0;
 }
 
+
+.contactSectionIcons {
+    width: 30vw;
+    text-align: right;
+}
+
+.contactSection i {
+    width: 5vw;
+}
 
