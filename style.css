@@ -9,7 +9,6 @@ body {
 .landing-page {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(99, 97, 94, 0.2);
     border: 1px solid transparent;
 }
 
@@ -38,7 +37,7 @@ body {
     margin: 0;
     margin-left: 1rem;
     text-align: center;
-    text-shadow: 5px 5px 10px rgba(37, 23, 232, 0.8);
+    text-shadow: 5px 5px 10px yellow;
 }
 
 .fullStack {
@@ -47,26 +46,32 @@ body {
     font-size: 2.5rem;
     margin-top: 3%;
     margin-bottom: 5%;
-    color: rgba(99, 97, 94, 1);
+    color: black;
 }
 
 .stack {
     margin-bottom: 15px;
     text-align: center;
     color: rgba(99, 97, 94, 1);
-    margin-bottom: 12%;
+    margin-bottom: 10%;
 }
 
 .links {
     width: 60vw;
+    height: 1.8rem;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-top: 2px solid black;
+    border: 1px solid transparent;
+    background-color: yellow;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.8rem;
-    padding-top: 5px;
+    padding: 0;
+}
+
+.links a:hover {
+    color: white;
 }
 
 .stackList {
@@ -83,7 +88,7 @@ a {
 }
 
 a:hover {
-    text-shadow: 5px 5px yellow;
+    text-shadow: 3px 3px yellow;
 }
 
 h2 {
@@ -106,7 +111,8 @@ h2 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-top: 5px;
+    padding-top: 15px;
+    border-top: 2px solid black;
 }
 
 .aboutSectionContent {
@@ -123,7 +129,7 @@ h2 {
     width: 30%;
     border: 1px transparent solid; 
     border-radius: 50%;
-    box-shadow: 10px 10px 10px rgb(142, 212, 235);
+    box-shadow: 10px 10px 10px yellow;
 }
 
 .aboutSection p {
@@ -148,7 +154,7 @@ h2 {
     text-shadow: 5px 5px yellow;
     text-align: center;
     margin-bottom: 50px;
-    padding-top: 10px;
+    padding-top: 15px;
     border-top: 2px solid black;
 }
 
@@ -228,10 +234,10 @@ h2 {
 .contactSection {
     width: 80vw;
     padding-left: 0;
-    padding-top: 3px;
-    border-top: 2px solid gray;
+    padding-top: 15px;
+    border-top: 2px solid black;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
