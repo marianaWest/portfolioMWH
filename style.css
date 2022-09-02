@@ -79,7 +79,6 @@ body {
     font-size: 1.8rem;
     display: inline-block;
     padding-top: 5px;
-
 }
 
 a {
@@ -181,7 +180,7 @@ h2 {
 
 .workSectionContent img {
     width: 100%;
-    box-shadow: 8px 8px 8px rgb(142, 212, 235);
+    box-shadow: 8px 8px 8px rgb(169, 198, 207);
 }
 
 .workSectionContent .LeonSays {
@@ -206,7 +205,7 @@ h2 {
 
 .workSectionContent2Row img {
     width: 100%;
-    box-shadow: 8px 8px 8px rgb(142, 212, 235);
+    box-shadow: 8px 8px 8px rgb(169, 198, 207);
 }
 
 .workSectionContent2Row .NASA {
@@ -262,7 +261,7 @@ h2 {
     border: 1px solid pink;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 600px) {
 
     body {
         margin: 0;
@@ -270,37 +269,313 @@ h2 {
     }
 
     .landing-page {
-        width: 80vw;
+        width: 90vw;
         height: 80vh;
-        border: none;
+        margin: 0 auto;
     }
     
     .logo-name {
-        width: 80vw;
-        margin: 0 auto;
-        margin-top: 15%;
+        margin: 15% auto;
         display: block;
         justify-content: center; 
-        border: 3px solid black;
         text-align: center;
-        margin-left: 10vw;
     }
     
-    .logo {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 5%;
-    }
-    
-    .name {
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 10px;
+   .name {
+        font-size: 3rem;
         display: block;
         width: 80vw;
         padding: 0;
         margin: 0 auto;
         text-align: center;
-        border: 1px solid red;
     }
+
+    .fullStack {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    
+    .links {
+        width: 80vw;
+        height: 6rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid transparent;
+        background-color: transparent;
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: 0;
+    }
+       
+    h2 {
+        font-size: 2rem;
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .stackList {
+        font-size: 1.6rem;
+    }
+    
+    .aboutSection {
+        height: 180vh;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .aboutSectionContent {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .aboutSection img {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .aboutSection p {
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .aboutSection i {
+        display: inline-block;
+        margin-top: 15px;
+    }
+    
+    .workSection {
+        width: 98vw;
+        padding: 0;
+        border: 1px solid transparent;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .workSection h3 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+        
+    .workSection p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .workSectionContent {
+        margin: 0 auto;
+        width: 80vw;
+        display: block;
+    }
+    
+    .workSectionContent img {
+        width: 100%;
+    }
+    
+    .workSectionContent .LeonSays {
+        width: 90%;
+    }
+    
+    .workSectionContent .mupalavra {
+        width: 90%;
+    }
+    
+    .workSectionContent .yesOrNo {
+        width: 90%;
+    }
+    
+    .workSectionContent2Row {
+        margin: 0 auto;
+        width: 80vw;
+        display: block;
+    }
+    
+    .workSectionContent2Row img {
+        width: 100%;
+    }
+    
+    .workSectionContent2Row .NASA {
+        width: 90%;
+    }
+    
+    .workSectionContent2Row .tiaBiscoiteira {
+        width: 90%;
+    }
+    
+    .workSectionContent2Row .fissura {
+        width: 90%;
+    }
+
+    .arrow {
+        width: 80vw;
+        height: 100px;
+        text-align: left;
+    }
+    .workSection i {
+        display: inline-block;
+    }
+    
+    .contactSection {
+        width: 80vw;
+        padding-left: 0;
+        padding-top: 15px;
+        border-top: 2px solid black;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .contactSection h2 {
+        width: 100%;
+    }
+    
+    .contactSectionIcons {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .contactSection i {
+        width: 15vw;
+    }
+    
+}
+
+
+@media all and (max-width: 900px) {
+    .logo-name {
+        margin: 15% auto;
+        display: block;
+        justify-content: center; 
+        text-align: center;
+    }
+    
+   .name {
+        font-size: 3.2rem;
+        display: block;
+        width: 80vw;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .aboutSection {
+        height: 160vh;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .aboutSectionContent {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .aboutSection img {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .aboutSection p {
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .aboutSection i {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+.workSection {
+        width: 98vw;
+        padding: 0;
+        border: 1px solid transparent;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .workSection h3 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+        
+    .workSection p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .workSectionContent {
+        margin: 0 auto;
+        width: 80vw;
+        display: block;
+    }
+    
+    .workSectionContent img {
+        width: 100%;
+    }
+    
+    .workSectionContent .LeonSays {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .workSectionContent .mupalavra {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .workSectionContent .yesOrNo {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .workSectionContent2Row {
+        margin: 0 auto;
+        width: 80vw;
+        display: block;
+    }
+    
+    .workSectionContent2Row img {
+        width: 100%;
+    }
+    
+    .workSectionContent2Row .NASA {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .workSectionContent2Row .tiaBiscoiteira {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .workSectionContent2Row .fissura {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .arrow {
+        width: 80vw;
+        height: 100px;
+        text-align: left;
+    }
+    .workSection i {
+        display: inline-block;
+    }
+    
+
+
 }
