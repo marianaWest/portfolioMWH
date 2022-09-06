@@ -261,7 +261,200 @@ h2 {
     border: 1px solid pink;
 }
 
-@media all and (max-width: 600px) {
+
+@media all and (max-width: 400px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .landing-page {
+        width: 90vw;
+        height: 80vh;
+        margin: 0 auto;
+    }
+    
+    .logo-name {
+        margin: 15% auto;
+        display: block;
+        justify-content: center; 
+        text-align: center;
+    }
+    
+   .name {
+        font-size: 2rem;
+        display: block;
+        width: 90vw;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .fullStack {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    
+    .links {
+        width: 80vw;
+        height: 6rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid transparent;
+        background-color: transparent;
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: 0;
+    }
+       
+    h2 {
+        font-size: 1.8rem;
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .stackList {
+        font-size: 1.4rem;
+    }
+    
+    .aboutSection {
+        height: 180vh;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .aboutSectionContent {
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .aboutSection img {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .aboutSection p {
+        width: 80%;
+        font-size: 1.2rem;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .aboutSection i {
+        display: inline-block;
+        margin-top: 15px;
+    }
+    
+    .workSection {
+        width: 98vw;
+        padding: 0;
+        border: 1px solid transparent;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .workSection h3 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+        
+    .workSection p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .workSectionContent {
+        margin: 0 auto;
+        width: 80vw;
+        display: block;
+    }
+    
+    .workSectionContent img {
+        width: 100%;
+    }
+    
+    .workSectionContent .LeonSays {
+        width: 90%;
+    }
+    
+    .workSectionContent .mupalavra {
+        width: 90%;
+    }
+    
+    .workSectionContent .yesOrNo {
+        width: 90%;
+    }
+    
+    .workSectionContent2Row {
+        margin: 0 auto;
+        width: 80vw;
+        display: block;
+    }
+    
+    .workSectionContent2Row img {
+        width: 100%;
+    }
+    
+    .workSectionContent2Row .NASA {
+        width: 90%;
+    }
+    
+    .workSectionContent2Row .tiaBiscoiteira {
+        width: 90%;
+    }
+    
+    .workSectionContent2Row .fissura {
+        width: 90%;
+    }
+
+    .arrow {
+        width: 80vw;
+        height: 100px;
+        text-align: left;
+    }
+    .workSection i {
+        display: inline-block;
+    }
+    
+    .contactSection {
+        width: 80vw;
+        padding-left: 0;
+        padding-top: 15px;
+        border-top: 2px solid black;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .contactSection h2 {
+        width: 100%;
+    }
+    
+    .contactSectionIcons {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .contactSection i {
+        width: 15vw;
+    }
+    
+}
+
+
+
+
+@media all and (min-width: 401px) and (max-width: 600px) {
 
     body {
         margin: 0;
@@ -451,7 +644,7 @@ h2 {
 }
 
 
-@media all and (max-width: 900px) {
+@media all and (min-width: 601px) and (max-width: 900px) {
     .logo-name {
         margin: 15% auto;
         display: block;
