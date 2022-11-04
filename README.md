@@ -1,10 +1,7 @@
 
-# Hi 👋 
-
 # My portfolio
 
-[PLACE_FOR_YOUR_IMAGE]
-
+<img width="756" alt="portfolio" src="https://user-images.githubusercontent.com/97693233/200001000-84616a82-337c-46d7-96d5-f5efc0019f22.PNG">   
 https://marianawest.github.io/portfolioMWH/
 
 This is my portfolio collecting some of my projects, both the ones that I have finished (for now) and others that are still a work in progress.   
