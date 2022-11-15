@@ -37,7 +37,15 @@ body {
     margin: 0;
     margin-left: 1rem;
     text-align: center;
-    text-shadow: 5px 5px 10px yellow;
+    animation: glow 2s ;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes glow {
+    to {
+        text-shadow: 10px 5px 10px rgba(255, 255, 0, 1);
+    }
 }
 
 .fullStack {
