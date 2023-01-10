@@ -2,36 +2,83 @@ html {
     font-size: 62.5;
 }
 
-body {
+* {
     box-sizing: border-box;
 }
 
 .landing-page {
     width: 100vw;
     height: 100vh;
-    border: 1px solid transparent;
+    border: 1px solid white;
+    background: linear-gradient(220deg, rgba(255, 255, 0, 0.4), rgba(255,255,255,0.5) 10%),
+            linear-gradient(180deg, rgba(255,255,0, 0.4), rgba(255,255,255,1) 70%)
+
 }
 
+.fade-in-image {
+    animation: fadeIn(6s);
+}
+
+.fade-in-image {
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
 .logo-name {
-    margin-top: 10%;
+    margin-top: 3%;
+    /* margin-bottom: 2%; */
     display: flex;
     justify-content: center; 
     flex-direction: column;
     align-items: center;
 }
 
-.logo {
-    width: 10rem;
-    display: block;
-    margin: 0;
+.logo-name p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    margin: 2% 10vw;
     text-align: center;
-    margin-bottom: 5%;
+}
+
+.logo {
+    width: 40vw;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .name {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 5.5rem;
-    display: block;
+    font-size: 4rem;
+    /* display: block; */
     width: 60rem;
     padding: 0;
     margin: 0;
@@ -52,16 +99,15 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     font-size: 2.5rem;
-    margin-top: 3%;
-    margin-bottom: 5%;
+    /* margin-top: 3%; */
+    /* margin-bottom: 5%; */
     color: black;
 }
 
 .stack {
-    margin-bottom: 15px;
     text-align: center;
     color: rgba(99, 97, 94, 1);
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 .links {
@@ -84,7 +130,7 @@ body {
 
 .stackList {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     display: inline-block;
     padding-top: 5px;
 }
@@ -111,6 +157,8 @@ h2 {
     padding-left: 2vw;
     margin: 0;  
     border: 1px solid transparent;
+    background: white;
+    
 }
 
 .aboutSection h2 {
