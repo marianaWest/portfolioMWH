@@ -1,3 +1,77 @@
+:root {
+  --background-color: #323232;
+  --primary-text: rgba(255, 255, 255, 0.95);
+  --secondary-text: rgba(255, 255, 255, 0.8);
+  --plain-text: rgba(255, 255, 255, 0.7);
+  --text-shadow: rgba(238, 238, 42, 0.5);
+}
+
 body {
-    background-color: black;
+  background-color: var(--background-color);
+  color: var(--plain-text);
+}
+
+.landing-page {
+  background: transparent;
+  border: transparent;
+}
+
+.links {
+  background-color: transparent;
+}
+
+.stackList {
+  color: var(--plain-text);
+}
+
+#name {
+  color: white;
+}
+
+
+
+.aboutSection {
+  border: 1px solid transparent;
+  background: var(--background-color);
+}
+
+.workSectionContent img {
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+.aboutSection h2,
+.workSection h2 {
+  text-shadow: none;
+  color: var(--secondary-text);
+  border-top: 2px solid var(--primary-text);
+  font-weight: bolder;
+  font-size: 2.4rem;
+}
+
+.workSection h3 {
+  color: var(--secondary-text);
+}
+
+.contactSection {
+  border-top: 2px solid var(--primary-text);
+}
+
+.contactSection h2 {
+  text-shadow: none;
+  color: var(--secondary-text);
+  font-size: 2.2rem;
+}
+
+.workSection i,
+.aboutSection i,
+.contactSection i {
+  color: var(--secondary-text);
+}
+
+a:hover {
+  text-shadow: 3px 3px 3px yellow;
+}
+
+.aboutSection img {
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
 }
