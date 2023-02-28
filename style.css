@@ -776,12 +776,17 @@ h2 {
   }
 
   .workSectionContent .LeonSays,
-  .workSectionContent .sketch1 {
+  .workSectionContent .sketch1,
+  .workSectionContent .mupalavra,
+  .workSectionContent .yesOrNo,
+  .workSectionContent .NASA,
+  .workSectionContent .tiaBiscoiteira,
+  .workSection .fissura {
     width: 80%;
     margin: 0 auto;
   }
 
-  .workSectionContent .mupalavra {
+  /* .workSectionContent .mupalavra {
     width: 80%;
     margin: 0 auto;
   }
@@ -814,7 +819,7 @@ h2 {
   .workSectionContent2Row .fissura {
     width: 80%;
     margin: 0 auto;
-  }
+  } */
 
   .arrow {
     width: 80vw;
