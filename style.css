@@ -1,5 +1,6 @@
 html {
   font-size: 62.5;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -8,7 +9,7 @@ html {
 
 .landing-page {
   width: 100vw;
-  /* height: 100vh; */
+  height: 100vh;
   border: 1px solid white;
   background: linear-gradient(
       220deg,
