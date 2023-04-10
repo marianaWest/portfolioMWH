@@ -191,7 +191,6 @@ h2 {
   margin-top: 50px;
   margin-bottom: 50px;
   padding-top: 15px;
-  border-top: 2px solid black;
 }
 
 .aboutSectionContent {
@@ -234,7 +233,6 @@ h2 {
   text-align: center;
   margin-bottom: 50px;
   padding-top: 15px;
-  border-top: 2px solid black;
 }
 
 .workSection h3 {
@@ -319,20 +317,13 @@ h2 {
 }
 
 .contactSection {
-  width: 80vw;
+  width: 60vw;
   padding-left: 0;
-  padding-top: 15px;
-  border-top: 2px solid black;
+  padding-top: 0;
   margin: 0 auto;
   margin-bottom: 20px;
   display: flex;
-  justify-content: space-between;
-}
-
-.contactSection h2 {
-  text-shadow: 5px 5px yellow;
-  width: 30vw;
-  margin: 0;
+  justify-content: flex-end;
 }
 
 .contactSectionIcons {
@@ -344,9 +335,9 @@ h2 {
   width: 5vw;
 }
 
-.contactSectionForm {
+/* .contactSectionForm {
   border: 1px solid pink;
-}
+} */
 
 @media all and (max-width: 400px) {
   body {
