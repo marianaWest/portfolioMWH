@@ -247,7 +247,7 @@ h2 {
   margin: 0 auto;
   width: 80vw;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: center;
   flex-wrap: wrap;
   gap: 5%;
@@ -256,9 +256,10 @@ h2 {
 .workSectionContent img {
   width: 100%;
   box-shadow: 8px 8px 8px rgb(169, 198, 207);
+  border: 1px solid rgb(169, 198, 207);
 }
 .workSectionContent .sketch1 {
-  width: 30%;
+  width: 40%;
 }
 
 .workSectionContent .LeonSays {
@@ -330,10 +331,6 @@ h2 {
 .contactSection i {
   width: 5vw;
 }
-
-/* .contactSectionForm {
-  border: 1px solid pink;
-} */
 
 @media all and (max-width: 400px) {
   body {
